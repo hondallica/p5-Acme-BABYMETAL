@@ -54,6 +54,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hondallica/p5-Acme-BABYMETAL/issues"
+      },
+      "homepage" : "https://github.com/hondallica/p5-Acme-BABYMETAL",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/hondallica/p5-Acme-BABYMETAL.git",
+         "web" : "https://github.com/hondallica/p5-Acme-BABYMETAL"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:HONDALLIC",
    "x_serialization_backend" : "JSON::PP version 2.27300"
