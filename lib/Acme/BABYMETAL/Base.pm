@@ -4,7 +4,7 @@ use warnings;
 use DateTime;
 use base qw(Class::Accessor);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 __PACKAGE__->mk_accessors(qw(
     metal_name
@@ -32,9 +32,9 @@ sub _initialize {
     my %info = $self->info;
 
     $self->{$_}      = $info{$_} for keys %info;
-    $self->{name_ja} = $self->family_name_ja.$self->first_name_ja;
-    $self->{name_en} = $self->first_name_en.' '.$self->family_name_en;
-    my ($year, $month, $day) = ($self->{birthday} =~ /(\d{4})-(\d{2})-(\d{2})/);
+    $self->{name_ja} = $self->family_name_ja . $self->first_name_ja;
+    $self->{name_en} = $self->first_name_en . ' ' . $self->family_name_en;
+    my ($year, $month, $day) = ($self->{birthday} =~ /^(\d{4})-(\d{2})-(\d{2})$/);
     $self->{age} = (DateTime->now - DateTime->new(
         year => $year,
         month => $month,

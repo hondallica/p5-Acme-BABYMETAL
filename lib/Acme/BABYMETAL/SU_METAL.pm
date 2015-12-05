@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use base qw(Acme::BABYMETAL::Base);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub info {
     return (
@@ -13,7 +13,6 @@ sub info {
         first_name_en  => 'Suzuka',
         family_name_en => 'Nakamoto',
         birthday       => '1997-12-20',
-        #birthday       => $_[0]->_datetime_from_date('1997-12-20'),
         blood_type     => 'B',
         hometown       => '広島県',
     );

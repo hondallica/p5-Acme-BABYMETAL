@@ -65,7 +65,7 @@
          "web" : "https://github.com/hondallica/p5-Acme-BABYMETAL"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:HONDALLIC",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }
