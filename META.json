@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "All about Japanese metal idol unit \"BABYMETAL\"",
    "author" : [
       "Hondallica <hondallica@gmail.com>"
    ],
@@ -42,6 +42,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Class::Accessor" : "0",
+            "DateTime" : "0",
             "perl" : "5.008001"
          }
       },
