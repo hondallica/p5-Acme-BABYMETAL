@@ -36,7 +36,7 @@ sub facebook {
 
 sub instagram {
     my ($self) = @_;
-    return 'https://www.instagram.com/babymetal_jpn/';
+    return 'https://www.instagram.com/babymetal_official/';
 }
 
 sub twitter {
