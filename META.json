@@ -4,7 +4,7 @@
       "Hondallica <hondallica@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.0.0, CPAN::Meta::Converter version 2.150005",
+   "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -67,5 +67,8 @@
    },
    "version" : "0.02",
    "x_authority" : "cpan:HONDALLIC",
+   "x_contributors" : [
+      "Ben Bullock <benkasminbullock@gmail.com>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }

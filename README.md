@@ -54,4 +54,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-Hondallica &lt;hondallica@gmail.com>
+Hondallica <hondallica@gmail.com>
