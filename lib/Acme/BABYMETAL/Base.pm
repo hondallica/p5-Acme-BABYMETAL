@@ -4,7 +4,7 @@ use warnings;
 use DateTime;
 use base qw(Class::Accessor);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 __PACKAGE__->mk_accessors(qw(
     metal_name

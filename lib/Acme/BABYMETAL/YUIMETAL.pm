@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use base qw(Acme::BABYMETAL::Base);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub info {
     return (

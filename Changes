@@ -2,6 +2,10 @@ Revision history for Perl extension Acme-BABYMETAL
 
 {{$NEXT}}
 
+0.03 2016-09-23T11:24:48Z
+
+    - Fix Instagram URL
+
 0.02 2015-12-05T05:30:05Z
 
     - Fix minor bug
